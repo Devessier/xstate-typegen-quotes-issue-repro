@@ -11,3 +11,7 @@ Command run to produce the screenshot:
 ```sh
 yarn xstate typegen "*machine.ts"
 ```
+
+[Machine with single quotes in a state](./single-quotes-machine.ts)
+
+[Machine with single quotes in a tag](./single-quotes-in-tag-machine.ts)

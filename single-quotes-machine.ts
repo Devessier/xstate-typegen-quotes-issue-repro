@@ -2,7 +2,7 @@ import { createMachine } from "xstate";
 
 createMachine({
   id: "Machine",
-  tsTypes: {} as import("./invalid-machine.typegen").Typegen0,
+  tsTypes: {} as import("./single-quotes-machine.typegen").Typegen0,
   schema: {
     events: {} as { type: "Event" },
   },
@@ -11,10 +11,11 @@ createMachine({
     "State 1": {
       on: {
           Event: {
-              target: "State '2"
+              target: "Open user's profile"
           }
       },
     },
-    "State '2": {},
+    // State with simple quote
+    "Open user's profile": {},
   },
 });

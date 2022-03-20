@@ -1,0 +1,14 @@
+{
+  "name": "xstate-typegen-quotes-issue-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Devessier/xstate-typegen-quotes-issue-repro.git",
+  "author": "Devessier <baptiste@devessier.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "xstate": "^4.30.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
